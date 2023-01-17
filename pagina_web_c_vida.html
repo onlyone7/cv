@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexander Guiza*">
+    <meta name="description" content="Desarrollo web clinica de rehabilitacion casa vida">
+    <meta name="keywords" content="html,css,javascript,bootstrap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--css-->
+    <link href="scccv.css"rel="stylesheet" >
+    <!--Titulo-->
+    <title>Casa Vida ࣢ Rehabilitacion</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/FAVICON1.png">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    
+
+    
+</head>
+<body> 
+  
+ <!--Barra de navegacion-->
+          <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="menuNavegacion"><a class="navbar-brand  " href="#"><img class="log" src="imagenes/logo.png " width="70px"  alt="logo_cv">   </a> 
+                
+       
+            <ul class="navbar-nav   justify-content-end flex-grow-1 pe-3  align-items-center">
+            
+              <li class="nav-item "> 
+                <a class="nav-link " href="#s"> Sobre mi </a></li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#p">Proyectos</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#t">Testimonios</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#e">Enlaces de interes</a>
+              </li>
+    
+              <li class="nav-item">
+                   <a class="nav-link" href="#c">Contactos</a>
+              </li>
+              
+            </ul>
+          
+         
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  
+  <audio controls="" autoplay>
+    <source src="vozpag-web.mp3" type="audio/mp3">   
+    Tu navegador no soporta el elemento "audio".
+  </audio>
+
+  
+<!--Seccion Hero-->
+
+<div class="container he">
+  <div class="row hero">
+    
+    <div class="hero-principal col-12 col-md-4 col-lg-4">
+      <h1 >
+        Si quieres resultados diferentes <br> debes hacer cosas diferentes.
+       </h1>
+       <h2>llegar al mundo con un mensaje cristocentrico</h2>
+       <h1>2 corintios 5:17</h1>
+       <h2>De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. </h2>
+      </div>
+
+      <div id="carouselimg" class="carousel  carusel-dark slide col-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/carusel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carusel2.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carusel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselimg" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselimg" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+        <div class="formu col-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center">
+         
+          <form action="form.php"  method="POST" >
+            <h1>Formulario inscipcion de usuarios</h1>
+              <table class="tabla" >
+                  
+                   <tr>
+                        
+                          <td><input type="number"placeholder="Numero de identificacion porfavor"name= "identificacion" required></td>
+      
+      
+                   </tr>
+                  <tr>
+                    
+                    <td> <input type="text"placeholder="Tu primer nombre porfavor"name="primer_nombre"required></td>
+                 </tr>
+              
+                 <tr>
+                        
+                        <td> <input type="text"placeholder="Tu segundo nombre porfavor"name="segundo_nombre"required></td>
+                 </tr>
+          
+                 <tr>
+                        
+                        <td> <input type="text"placeholder="Tu primer apellido porfavor"name="primer_apellido"required
+                          ></td>
+                 </tr>
+                 
+                  <tr>
+                          
+                          <td> <input type="text"placeholder="Tu segundo apellido porfavor"name="segundo_apellido"required></td>
+                </tr>
+                 <tr>
+                      
+                      <td><input type="phone"placeholder="Tu numero de celular porfavor"name="telefono"required></td>
+      
+      
+                 </tr>
+                   <tr>
+                         
+                          <td><input type="password"placeholder="Tu contraseña porfavor"name="password"required></td>
+      
+      
+                   </tr>
+                   <tr>
+                          
+                          <td><input type="radio"name="genero" value="F"required>mujer
+                              <input type="radio"name="genero"  value="M"required>hombre
+                          
+                          </td>
+      
+      
+      
+                   </tr>
+                    <tr>
+                           
+                           <td><input type="mail"placeholder="Tu correo porfavor"name="email"required></td>
+      
+      
+      
+                    </tr>
+                           
+                      <tr>
+                        <td><input class="enviar" type="submit"value="ENVIAR"name="envia"></td> 
+      
+                      </tr>
+                      <tr>
+
+                        <td><input class="enviar" type="reset"value="LIMPIAR"name="limpia"></td> 
+      
+                      </tr>
+              </table>
+
+      
+      
+      
+          </form>
+        </div>
+  </div>
+</div>
+
+
+
+
+
+ <!--conozcame-->
+
+<section id="s" class="conocenos seccion-oscura">
+<div class="contenedor" >
+<h1 class="titulo">Conoce casa  vida</h1>
+<P class="parrafo_uno">
+ 
+  
+<b >Respuestas del director Ferney Garzón.</b><br>
+  
+<h1>
+<h1><b> -¿Cuál es el servicio que aporta la empresa a los clientes?</b><br></h1>
+   Nuestros usuarios son jóvenes con problemas de consumo de sustancias psicoactivas, uso y abuso de las mismas, en nuestra fundación los jóvenes tienen procesos de desintoxicación, paralelo a un tratamiento Teo psicoterapéutico centrado en cristo Jesús quien es el único que salva y sana. Adicionalmente cada joven dependiendo de si tiene metas o no, puede hacer su bachillerato o continuar con las clases que tiene pendientes en sus estudios. 
+  <br>
+  
+<h1><b>-¿Que buscan los clientes en sus instalaciones?</b><br></h1>
+ Las familias que buscan ayuda, quieren que sus hijos sean rehabilitados y en lo posible restaurados para que retomen sus valores morales y puedan tener una vida libre de drogas y adicciones, que puedan progresar y eventualmente cada uno haga su vida y viva bien por el resto de su vida. 
+  <br>
+<h1><b> -¿Qué proceso se lleva a cabo para la rehabilitación de los internos?</b><br></h1>
+  El proceso es Teo psicoterapéutico.
+  Teo: Centrada en Jesús <br>
+  Psicológico: Con ayuda Psicológica. <br>
+  Terapeuta: Sanidad de las conductas adictivas. <br>
+  <br>
+<h1><b>-¿Qué cargos realizan los colaboradores de la empresa?</b><br></h1>
+  
+  Coordinador: Organiza y hace seguimiento del proceso de cada interno. <br>
+  Operador: Confronta a los jóvenes y los ayuda en su proceso. <br>
+  Psicóloga: Lleva el proceso o tratamiento Psicológico de cada usuario. <br>
+  Director: Dirige la fundación y busca los recursos. <br>
+  Administrador: Administra y lleva la contabilidad.  <br>
+  <br>
+<h1><b>-¿Cuál es la visión de la empresa?</b><br></h1>
+  Para el 2025 seremos una fundación social, activa, ágil e innovadora que gerencia proyectos de vida a quienes más lo necesitan, destacando sobre todo la dedicación, capacidad y altruismo de sus miembros, comprometidos con la restauración, formación, fortalecimiento, y principios dignos de seres humanos llevándolos al lugar más alto, donde ellos jamás habrían imaginado llegar. 
+  <br>
+<h1><b>-¿Cuál es la misión de la empresa?</b><br></h1>
+   Somos un centro especializado en la prevención y el tratamiento de conductas adictivas, comprometidos en el mejoramiento de la calidad de vida de  nuestros estudiantes y sus familias, enfocados bajo principios cristianos, ofrecemos un programa Teo psicoterapéutico, educativo, con el objeto de que cada persona construya un proyecto de vida, siendo agente de cambio y protagonista de su propio camino. 
+  <br>
+<h1><b>-Los Clientes ¿como tienen conocimiento de su empresa?</b><br></h1>
+   Atreves de internet, volantes y voz a voz. 
+  <br>
+<h1><b> -¿En dónde queda ubicada la empresa?</b><br></h1>
+Calle 31 sur No. 4.48 este Santa Inés, Bogotá San Cristóbal Sur, Bogotá. 
+  <br>
+<h1><b>-¿Cuál es número de contacto de la empresa?</b><br></h1>
+   3204617137. </P>
+
+
+
+</div>
+
+
+
+</section>
+
+<!--Proyectos-->
+
+<section  id="p" class=" seccion-clara proy">
+  <div class="container text-center">
+    <div class="row">
+      <!--teo-->
+      <div class="columna col-12 col-md-4 "> 
+        <i class="bi bi-book"></i>
+        <p class="teo-titulo ">Teologia</p>
+        <p>La teología  es la disciplina que estudia el conjunto de conocimientos acerca de Dios. </p>
+        <span class="badge text-bg-primary">Estudio</span>
+        <span class="badge text-bg-primary">Aplicacion</span>
+        <span class="badge text-bg-primary">Predicacion</span>
+      </div>
+
+       <!--psico-->
+       <div class="columna col-12 col-md-4 "> 
+        <i class="bi bi-postcard-heart"></i>
+        <p class="teo-titulo ">Psicologia</p>
+        <p>Estudio o tratado del alma, para-ciencia que trata el estudio y el análisis de la conducta y los procesos mentales de los individuos y de grupos humanos en distintas situaciones.</p>
+        <span class="badge text-bg-primary">Sesiones</span>
+        <span class="badge text-bg-primary">Acompañamiento</span>
+        <span class="badge text-bg-primary">Proyecto de vida</span>
+      </div>
+
+
+       <!--terapeutico-->
+       <div class="columna col-12 col-md-4 "> 
+        <i class="bi bi-person-gear"></i>
+        <p class="teo-titulo ">Terapia o tratamiento</p>
+        <p>"​ Es el conjunto de medios (higiénicos, farmacológicos, quirúrgicos u otros) cuya finalidad es la curación o el alivio de las enfermedades o síntomas. </p>
+        <span class="badge text-bg-primary">Tutor</span>
+        <span class="badge text-bg-primary">Ejercicios</span>
+        <span class="badge text-bg-primary">Días culturales</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Testimonios-->
+<section   id="t" class="test seccion-clara d-flex flex-column ">
+
+<h1 class="titulo-test texto-negro"> <b>Proyectos recientes</b></h1>
+<h3 class="descripcion">Los testimonios de algunos jovenes, que el SEÑOR, saco de lo vil y menospreciado,los colmo de dones haciendolos aptos para ayudar mutuamente a la iglesia de Jesucristo.</h3>
+
+  <div class="tes container text-center test-container">
+    <div class="row">
+      <!--Testimonio uno-->
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="testimonios">
+          <img src="imagenes/icon-test1.png" alt="test1">
+            <div class="texto-sobre-imagen">
+               <p>Director FERNEY GARZON FLOREZ, da click sobre el icono por favor </p>
+                <div class="icon-test-container">
+                 <a href="https://es-la.facebook.com/FunCASAVIDA/" target="_blank"rel="noopener noreferrer">
+                  <i class="bi bi-easel-fill"></i> </a>
+                 <a href="https://www.facebook.com/photo?fbid=591778836284202&set=a.430821835713237"target="_blank"rel="noopener noreferrer">
+                  <i class="bi bi-mortarboard"></i>  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    
+   
+        <!--Testimonio uno-->
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="testimonios">
+            <img src="imagenes/icon-test2.jpg" alt="test2">
+              <div class="texto-sobre-imagen">
+                 <p>Coordinador CARLOS CAMARGO, da click sobre el icono por favor </p>
+                  <div class="icon-test-container">
+                   <a href="https://www.facebook.com/profile.php?id=100056312108102" target="_blank"rel="noopener noreferrer">
+                    <i class="bi bi-easel-fill"></i> </a>
+                   <a href="https://www.facebook.com/profile.php?id=100082988891252"target="_blank"rel="noopener noreferrer">
+                    <i class="bi bi-mortarboard"></i>  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <a href="https://www.youtube.com/@fundacioncasavida2769"target="_blank"rel="noopener noreferrer">
+    <button type="button" class="btn btn-info">Ver más testimonios <i class="bi bi-arrow-right-circle"></i></button></a> 
+ </section>
+
+ <!---enlaces de interes-->
+ <section  id="e" class="enlaces justify-content-start">
+   <h2><b>Enlaces de interes</b></h2>
+   <div class="card" >
+    <div class="card-header">
+       Publicaciones recientes
+  </div>
+     <ul class="list-group list-group-flush">
+      <a href="https://crvradio.com.co/"target="_blank"rel="noopener noreferrer"><li class="list-group-item">Congregate querido(a)</li></a>
+      <a href="https://www.elempleo.com/"target="_blank"rel="noopener noreferrer"><li class="list-group-item">Busca empleo amado(a)</li></a>
+      <a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/"target="_blank"rel="noopener noreferrer"><li class="list-group-item">Capacitate en ciencias </li></a>
+      <a href="https://www.youtube.com/watch?v=Zdd9N2hcwLk"target="_blank"rel="noopener noreferrer"><li class="list-group-item">Cambia de habitos </li></a>
+    </ul>
+  </div>
+ </section>
+<!--contactos-->
+ <section  id="c" class="contacto seccion-oscura">  
+  <div class="container">
+   <div class=" container text-center  rectangulo d-flex justify-content-evenly">
+    <div class="a row">
+      <div class="col-contacto col-12 col-md-4 ">¡Hablemos!</div>
+        <div class="descripcion col-12 col-md-4">Contactame,podemos iniciar el proyecto de vida de la mano de Dios.</div>
+          <div class="col-12 col-md-4"><a href="mailto:director.casavida@gmail.com">
+            <button> Contacto <i class="bi bi-envelope-check-fill"></i></button></a>
+         </div>
+      </div>
+    </div>
+   </div>  
+ </section>
+
+
+ <footer class="seccion-oscura d-flex-column align-items-center justify-content-center">
+ 
+    <p class="txt-footer text-center">Tal como Dios lo prometio, <br> nos dará toda tierra donde pongamos <br> la planta de nuestro pie.</p><br>
+      <div class="d-flex  flex-wrap  align-items-center justify-content-center ">
+        <a href="https://www.facebook.com/FunCASAVIDA"target=_blank rel="noopener noreferrer"> <i class="bi bi-facebook"></i></a>
+        <a href="https://www.youtube.com/@fundacioncasavida2769"target=_blank rel="noopener noreferrer"> <i class="bi bi-skip-end-btn-fill"></i></a>
+        <a href="mailto:director.casavida@gmail.com"target=_blank rel="noopener noreferrer"> <i class="bi bi-envelope-fill"></i></a>
+      </div>
+      <div class="d-autor">Creado por OnlyOne*(2023) &#169; </div>
+ </footer>
+
+ 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <Script src="js.js"></Script>
+</body>
+</html>
